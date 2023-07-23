@@ -1,0 +1,75 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP IRFB4110PBF
+D MOSFET N-Ch 100V 180A HEXFET TO220AB Infineon IRFB4110PBF N-channel MOSFET Transistor, 180 A, 100 V, 3-Pin TO-220AB
+K
+F http://www.farnell.com/datasheets/2157750.pdf
+$ENDCMP
+#
+$CMP IRFB4110
+D International Rectifier (IR) IRFB4110PF, Single N-Channel HEXFET Power MOSFET, TO-220AB package
+K
+F http://www.irf.com/product-info/datasheets/data/irfb4110pbf.pdf
+$ENDCMP
+#
+$CMP MGJ2D151505SC
+D DC/DC Converters
+K
+F http://power.murata.com/data/power/ncl/kdc_mgj2.pdf
+$ENDCMP
+#
+$CMP AD633JNZ
+D Analogue Multiplier 2% FS 10V PDIP8 AD633JNZ, Analogue Multiplier 8-Pin PDIP
+K
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD633.pdf
+$ENDCMP
+#
+$CMP OP177FSZ
+D Precision Amplifiers ULTRA-PRECISION OP AMP IC
+K
+F https://componentsearchengine.com/Datasheets/2/OP177FSZ.pdf
+$ENDCMP
+#
+$CMP ZMPT101B
+D Current-type Voltage Transformer
+K
+F 
+$ENDCMP
+#
+$CMP OP07CSZ-REEL
+D Precision OpAmps General Purpose 1 +/-3V ~ 18V 600kHz 0.3 V/us SOIC-8_150mil RoHS
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/OP07.pdf
+$ENDCMP
+#
+$CMP L78M12ABDT-TR
+D L78M12ABDT-TR, Voltage Regulator, 0.5A 12 V, +/-2%, 3-Pin D-PAK
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00000447.pdf
+$ENDCMP
+#
+$CMP L7805CV
+D Linear voltage regulator,L7805CV 5V 1.5A STMicroelectronics L7805CV, Single Linear Voltage Regulator, 1.5A 5 V, 3-Pin TO-220
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00000444.pdf
+$ENDCMP
+#
+$CMP OP07CP
+D Low-Offset voltage (0.25mV) single operational amplifier
+K
+F http://www.ti.com/lit/ds/symlink/op07c.pdf
+$ENDCMP
+#
+$CMP 3306P-1-105
+D 1M Through Hole Trimmer Potentiometer 0.2W Top Adjust Bourns 3306 Series
+K
+F https://www.bourns.com/data/global/pdfs/3306.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,329 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.28/8/3/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1000 700 50 H V L CNN
+F1 "NE555DR" 1000 600 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1000 500 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1000 400 50 H I L CNN
+F4 "Single Precision Timer" 1000 300 50 H I L CNN "Description"
+F5 "1.75" 1000 200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1000 100 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1000 0 50 H I L CNN "Manufacturer_Part_Number"
+F8 "1218414" 1000 -100 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/1218414" 1000 -200 50 H I L CNN "RS Price/Stock"
+F10 "NE555DR" 1000 -300 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ne555dr/texas-instruments" 1000 -400 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GND 1 600 -800 200 U 50 50 0 0 B
+X TRIG 2 0 0 200 R 50 50 0 0 B
+X OUT 3 0 -200 200 R 50 50 0 0 B
+X RESET 4 500 600 200 D 50 50 0 0 B
+X CONT 5 1200 -300 200 L 50 50 0 0 B
+X THRES 6 1200 -200 200 L 50 50 0 0 B
+X DISCH 7 1200 0 200 L 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -600 200 -600 200 400 N
+T 0 600 -100 50 0 0 1 "555" Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model IRFB4110PBF
+#/867239/1103660/2.50/3/4/MOSFET (N-Channel)
+DEF IRFB4110PBF Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "IRFB4110PBF" 450 50 50 H V L CNN
+F2 "TO254P483X1016X1994-3P" 450 -50 50 H I L CNN
+F3 "http://www.farnell.com/datasheets/2157750.pdf" 450 -150 50 H I L CNN
+F4 "MOSFET N-Ch 100V 180A HEXFET TO220AB Infineon IRFB4110PBF N-channel MOSFET Transistor, 180 A, 100 V, 3-Pin TO-220AB" 450 -250 50 H I L CNN "Description"
+F5 "4.83" 450 -350 50 H I L CNN "Height"
+F6 "Infineon" 450 -450 50 H I L CNN "Manufacturer_Name"
+F7 "IRFB4110PBF" 450 -550 50 H I L CNN "Manufacturer_Part_Number"
+F8 "942-IRFB4110PBF" 450 -650 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRFB4110PBF?qs=9%252BKlkBgLFf1%2FkPV%252BuAP9EQ%3D%3D" 450 -750 50 H I L CNN "Mouser Price/Stock"
+F10 "IRFB4110PBF" 450 -850 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/irfb4110pbf/infineon-technologies-ag?region=nac" 450 -950 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 300 400 100 D 50 50 0 0 P
+X ~ 3 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 230 100 270 120 270 80 230 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model IRFB4110
+#/315444/1103660/2.50/3/4/MOSFET (N-Channel)
+DEF IRFB4110 Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "IRFB4110" 450 50 50 H V L CNN
+F2 "TO254P483X1126X1994-3P" 450 -50 50 H I L CNN
+F3 "http://www.irf.com/product-info/datasheets/data/irfb4110pbf.pdf" 450 -150 50 H I L CNN
+F4 "International Rectifier (IR) IRFB4110PF, Single N-Channel HEXFET Power MOSFET, TO-220AB package" 450 -250 50 H I L CNN "Description"
+F5 "4.83" 450 -350 50 H I L CNN "Height"
+F6 "Infineon" 450 -450 50 H I L CNN "Manufacturer_Name"
+F7 "IRFB4110" 450 -550 50 H I L CNN "Manufacturer_Part_Number"
+F8 "N/A" 450 -650 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRFB4110?qs=Gkr2N%2F2q3o0ZZcYR7GlV0g%3D%3D" 450 -750 50 H I L CNN "Mouser Price/Stock"
+F10 "" 450 -850 50 H I L CNN "Arrow Part Number"
+F11 "" 450 -950 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 300 400 100 D 50 50 0 0 P
+X ~ 3 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 230 100 270 120 270 80 230 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MGJ2D151505SC
+#/239926/1103660/2.50/5/4/Power Supply
+DEF MGJ2D151505SC PS 0 30 Y Y 1 F N
+F0 "PS" 850 300 50 H V L CNN
+F1 "MGJ2D151505SC" 850 200 50 H V L CNN
+F2 "MGJ2D151505SC" 850 100 50 H I L CNN
+F3 "http://power.murata.com/data/power/ncl/kdc_mgj2.pdf" 850 0 50 H I L CNN
+F4 "DC/DC Converters" 850 -100 50 H I L CNN "Description"
+F5 "12.75" 850 -200 50 H I L CNN "Height"
+F6 "Murata Electronics" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MGJ2D151505SC" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "580-MGJ2D151505SC" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/MGJ2D151505SC?qs=xLDY6iXSiQYIfXYEkf8RzA%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "MGJ2D151505SC" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mgj2d151505sc/murata-power-solutions?region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X +VIN 1 0 0 200 R 50 50 0 0 P
+X -VIN 2 0 -100 200 R 50 50 0 0 P
+X -VOUT 5 0 -200 200 R 50 50 0 0 P
+X OV 6 0 -300 200 R 50 50 0 0 P
+X +VOUT 7 0 -400 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model AD633JNZ
+#/169139/1103660/2.50/8/3/Integrated Circuit
+DEF AD633JNZ IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "AD633JNZ" 850 200 50 H V L CNN
+F2 "DIP794W56P254L959H533Q8N" 850 100 50 H I L CNN
+F3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD633.pdf" 850 0 50 H I L CNN
+F4 "Analogue Multiplier 2% FS 10V PDIP8 AD633JNZ, Analogue Multiplier 8-Pin PDIP" 850 -100 50 H I L CNN "Description"
+F5 "5.33" 850 -200 50 H I L CNN "Height"
+F6 "Analog Devices" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "AD633JNZ" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "584-AD633JNZ" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD633JNZ?qs=NmRFExCfTkGoBbkS43oI5A%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "AD633JNZ" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ad633jnz/analog-devices?region=europe" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X X1 1 0 0 200 R 50 50 0 0 P
+X X2 2 0 -100 200 R 50 50 0 0 P
+X Y1 3 0 -200 200 R 50 50 0 0 P
+X Y2 4 0 -300 200 R 50 50 0 0 P
+X +VS 8 1000 0 200 L 50 50 0 0 P
+X W 7 1000 -100 200 L 50 50 0 0 P
+X Z 6 1000 -200 200 L 50 50 0 0 P
+X -VS 5 1000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model OP177FSZ
+#/9987835/1103660/2.50/8/3/Integrated Circuit
+DEF OP177FSZ IC 0 30 Y Y 1 F N
+F0 "IC" 1550 300 50 H V L CNN
+F1 "OP177FSZ" 1550 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1550 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/OP177FSZ.pdf" 1550 0 50 H I L CNN
+F4 "Precision Amplifiers ULTRA-PRECISION OP AMP IC" 1550 -100 50 H I L CNN "Description"
+F5 "1.75" 1550 -200 50 H I L CNN "Height"
+F6 "Analog Devices" 1550 -300 50 H I L CNN "Manufacturer_Name"
+F7 "OP177FSZ" 1550 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "584-OP177FSZ" 1550 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/OP177FSZ?qs=WIvQP4zGanh6tlxuoEu5%2Fg%3D%3D" 1550 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "OP177FSZ" 1550 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/op177fsz/analog-devices?region=nac" 1550 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VOS_TRIM_1 1 0 0 200 R 50 50 0 0 P
+X -IN 2 0 -100 200 R 50 50 0 0 P
+X +IN 3 0 -200 200 R 50 50 0 0 P
+X V- 4 0 -300 200 R 50 50 0 0 P
+X VOS_TRIM_2 8 1700 0 200 L 50 50 0 0 P
+X V+ 7 1700 -100 200 L 50 50 0 0 P
+X OUT 6 1700 -200 200 L 50 50 0 0 P
+X NC 5 1700 -300 200 L 50 50 0 0 N
+P 5 0 1 6 200 100 1500 100 1500 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ZMPT101B
+#/2452386/1103660/2.50/4/4/Transformer
+DEF ZMPT101B T 0 30 Y Y 1 F N
+F0 "T" 1050 300 50 H V L CNN
+F1 "ZMPT101B" 1050 200 50 H V L CNN
+F2 "ZMPT101B" 1050 100 50 H I L CNN
+F3 "" 1050 0 50 H I L CNN
+F4 "Current-type Voltage Transformer" 1050 -100 50 H I L CNN "Description"
+F5 "18.8" 1050 -200 50 H I L CNN "Height"
+F6 "Qingxian Zeming Langxi Electronic" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ZMPT101B" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X PRI_1 1 0 0 200 R 50 50 0 0 P
+X PRI_2 2 0 -100 200 R 50 50 0 0 P
+X SEC_1 3 1200 -100 200 L 50 50 0 0 P
+X SEC_2 4 1200 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model OP07CSZ-REEL
+#/6931/1103660/2.50/8/3/Integrated Circuit
+DEF OP07CSZ-REEL IC 0 30 Y Y 1 F N
+F0 "IC" 1550 300 50 H V L CNN
+F1 "OP07CSZ-REEL" 1550 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1550 100 50 H I L CNN
+F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP07.pdf" 1550 0 50 H I L CNN
+F4 "Precision OpAmps General Purpose 1 +/-3V ~ 18V 600kHz 0.3 V/us SOIC-8_150mil RoHS" 1550 -100 50 H I L CNN "Description"
+F5 "1.75" 1550 -200 50 H I L CNN "Height"
+F6 "Analog Devices" 1550 -300 50 H I L CNN "Manufacturer_Name"
+F7 "OP07CSZ-REEL" 1550 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "584-OP07CSZ-R" 1550 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/OP07CSZ-REEL?qs=WIvQP4zGaniQmszDBSweaw%3D%3D" 1550 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "OP07CSZ-REEL" 1550 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/op07csz-reel/analog-devices?region=nac" 1550 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VOS_TRIM_1 1 0 0 200 R 50 50 0 0 P
+X -IN 2 0 -100 200 R 50 50 0 0 P
+X +IN 3 0 -200 200 R 50 50 0 0 P
+X V- 4 0 -300 200 R 50 50 0 0 P
+X VOS_TRIM_2 8 1700 0 200 L 50 50 0 0 P
+X V+ 7 1700 -100 200 L 50 50 0 0 P
+X OUT 6 1700 -200 200 L 50 50 0 0 P
+X NC 5 1700 -300 200 L 50 50 0 0 N
+P 5 0 1 6 200 100 1500 100 1500 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model L78M12ABDT-TR
+#/179511/1103660/2.50/3/3/Integrated Circuit
+DEF L78M12ABDT-TR IC 0 30 Y Y 1 F N
+F0 "IC" 1650 300 50 H V L CNN
+F1 "L78M12ABDT-TR" 1650 200 50 H V L CNN
+F2 "TO228P972X240-3N" 1650 100 50 H I L CNN
+F3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000447.pdf" 1650 0 50 H I L CNN
+F4 "L78M12ABDT-TR, Voltage Regulator, 0.5A 12 V, +/-2%, 3-Pin D-PAK" 1650 -100 50 H I L CNN "Description"
+F5 "2.4" 1650 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 1650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "L78M12ABDT-TR" 1650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-L78M12ABDT-TR" 1650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L78M12ABDT-TR?qs=d4HGWzVBKqPjKUGRXugODg%3D%3D" 1650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "L78M12ABDT-TR" 1650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/l78m12abdt-tr/stmicroelectronics?region=europe" 1650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X INPUT 1 0 0 200 R 50 50 0 0 I
+X OUTPUT 3 0 -100 200 R 50 50 0 0 W
+X GND_(THERMALPAD) 4 1800 0 200 L 50 50 0 0 W
+P 5 0 1 6 200 100 1600 100 1600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model L7805CV
+#/179428/1103660/2.50/3/3/Integrated Circuit
+DEF L7805CV IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "L7805CV" 850 200 50 H V L CNN
+F2 "TO255P460X1020X2008-3P" 850 100 50 H I L CNN
+F3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000444.pdf" 850 0 50 H I L CNN
+F4 "Linear voltage regulator,L7805CV 5V 1.5A STMicroelectronics L7805CV, Single Linear Voltage Regulator, 1.5A 5 V, 3-Pin TO-220" 850 -100 50 H I L CNN "Description"
+F5 "4.6" 850 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "L7805CV" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-L7805CV" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L7805CV?qs=9NrABl3fj%2FqplZAHiYUxWg%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "L7805CV" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/l7805cv/stmicroelectronics?region=europe" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X INPUT 1 0 0 200 R 50 50 0 0 P
+X GROUND 2 0 -100 200 R 50 50 0 0 P
+X OUTPUT 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model OP07CP
+#/181544/1103660/2.50/8/3/Integrated Circuit
+DEF OP07CP IC 0 30 Y Y 1 F N
+F0 "IC" 1550 300 50 H V L CNN
+F1 "OP07CP" 1550 200 50 H V L CNN
+F2 "DIP794W53P254L959H508Q8N" 1550 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/op07c.pdf" 1550 0 50 H I L CNN
+F4 "Low-Offset voltage (0.25mV) single operational amplifier" 1550 -100 50 H I L CNN "Description"
+F5 "5.08" 1550 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1550 -300 50 H I L CNN "Manufacturer_Name"
+F7 "OP07CP" 1550 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-OP07CP" 1550 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OP07CP?qs=6gY4t2uohMymBHeKbShN1A%3D%3D" 1550 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "OP07CP" 1550 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/op07cp/texas-instruments?region=nac" 1550 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X OFF_SET_N1 1 0 0 200 R 50 50 0 0 P
+X IN- 2 0 -100 200 R 50 50 0 0 P
+X IN+ 3 0 -200 200 R 50 50 0 0 P
+X VCC- 4 0 -300 200 R 50 50 0 0 P
+X OFFSET_N2 8 1700 0 200 L 50 50 0 0 P
+X VCC+ 7 1700 -100 200 L 50 50 0 0 P
+X OUT 6 1700 -200 200 L 50 50 0 0 P
+X NC 5 1700 -300 200 L 50 50 0 0 N
+P 5 0 1 6 200 100 1500 100 1500 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 3306P-1-105
+#/362722/1103660/2.50/3/4/Variable Resistor
+DEF 3306P-1-105 VR 0 30 Y Y 1 F N
+F0 "VR" 950 300 50 H V L CNN
+F1 "3306P-1-105" 950 200 50 H V L CNN
+F2 "3306P1105" 950 100 50 H I L CNN
+F3 "https://www.bourns.com/data/global/pdfs/3306.pdf" 950 0 50 H I L CNN
+F4 "1M Through Hole Trimmer Potentiometer 0.2W Top Adjust Bourns 3306 Series" 950 -100 50 H I L CNN "Description"
+F5 "7.62" 950 -200 50 H I L CNN "Height"
+F6 "Bourns" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "3306P-1-105" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "652-3306P-1-105" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Bourns/3306P-1-105?qs=8ovTl4njQkXkw1zreguPYw%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "3306P-1-105" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/3306p-1-105/bourns?region=nac" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X CCW 1 0 0 200 R 50 50 0 0 P
+X WIPER 2 1100 0 200 L 50 50 0 0 P
+X CW 3 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
+
